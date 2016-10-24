@@ -1,0 +1,18 @@
+h1 {
+  color: #00A582;
+  font-family: arial;
+  font-size: 64px;
+}
+
+
+p {
+  color: #00B6B3;
+}
+
+#link {
+  background-color: #00A582;
+  color: #00A582;
+  border: 10px;
+  border-radius: 8px;
+  border-width: 75%;
+}
