@@ -16,23 +16,25 @@ h1 {
 }
 
 .tile {
-  color: #00B6B3;
+  color: white;
   font-family: arial;
   font-size: 32px;
   align-items: center;
   position: relative;
   top: 20px;
   right: 10px;
-  border: 3px solid #00B6B3;
+  border: 3px solid #F19F86;
   border-radius: 10px;
   padding: 50px;
   width: 50%;
+  background-color: white;
+  opacity: 0.8;
 
 }
 
 #link {
   background-color: #00A582;
-  color: #00A582;
+  color: white;
   border: 100px;
   border-radius: 50px;
   border-width: 100%;
@@ -69,17 +71,40 @@ img {
 }
 
 body {
-  background-color: #B5F2F1;
+  background: #000000
+  url(http://clipgoo.com/daut/as/f/7/7-ways-the-decor-of-a-hipster-bar-reminds-you-your-exposed-brick-is-staple-any-montreal-apartment-or-comedy-club-it-gives-that-e2-80-9chey-were-inside-but-also-feels-like_brick-interior-walls-house_in.jpg) 100% 100%;
 }
 
 footer {
   top: 0px;
   height: 10px;
   width: 25%;
+  color: white;
 }
 
 .jumbotron {
   background: url(https://lh3.googleusercontent.com/X8bZcdPKF2YjEt1jUDGfFoeZVuc1_hHfFa3njw2-p6PtE5C8-Q0eviYLwJM81NOUe0jauDK2hlzolUjkMCI29X4L8Yw_myLLhw=s1920) 100% 100% no-repeat;
   top: 10px;
   color: white;
+}
+.details {
+  color: white;
+  font-size: 32px;
+  border: 3px solid white;
+  width: 50%
+}
+
+.more {
+  color: white;
+}
+
+.newrent {
+  color: white;
+  font-size: 32px;
+  align-items: center;
+}
+
+.form-group {
+  color: white;
+  align-items: center;
 }
