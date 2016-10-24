@@ -1,0 +1,20 @@
+{ "rentals": [{
+    "owner": "Veruca Salt",
+    "city": "San Francisco",
+    "type": "Estate",
+    "bedrooms": 15,
+    "image": "http://cdn1.blog-media.zillowstatic.com/1/San-Francisco-CA-6c1ac4.jpg"
+  }, {
+    "owner": "Mike Tv",
+    "city": "Seattle",
+    "type": "Condo",
+    "bedrooms": 1,
+    "image": "http://www.urbancondospaces.com/files/2012/08/2200-Westlake_Interior.jpg"
+  }, {
+    "owner": "Violet Bee",
+    "city": "Portland",
+    "type": "Apartment",
+    "bedrooms": 3,
+    "image": "http://project4gallery.com/wp-content/uploads/2016/04/studio.jpg"
+  }]
+}
