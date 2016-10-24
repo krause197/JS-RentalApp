@@ -1,10 +1,11 @@
-
+<div class="tile">
 <li>
   {{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city}}{{/link-to}}
   view
   if {{#if isImageShowing }}
   <p><img src={{rental.image}} alt={{rental.type}} {{ action 'imageHide'}}></p>
   {{else}}
-  <button {{action 'imageShow'}}> Show Image </button>
+  <button class="btn btn-info" {{action 'imageShow'}}> Show Image </button>
   {{/if}}
 </li>
+</div>

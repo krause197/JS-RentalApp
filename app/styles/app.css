@@ -4,15 +4,64 @@ h1 {
   font-size: 64px;
 }
 
-
-p {
+.tile {
   color: #00B6B3;
+  font-family: arial;
+  font-size: 32px;
+  align-items: center;
+  position: relative;
+  top: 80px;
+  right: 10px;
+  border: 3px solid #00B6B3;
+  border-radius: 10px;
+  padding: 50px;
+  width: 50%;
+
 }
 
 #link {
   background-color: #00A582;
   color: #00A582;
-  border: 10px;
-  border-radius: 8px;
-  border-width: 75%;
+  border: 100px;
+  border-radius: 50px;
+  border-width: 100%;
 }
+
+p {
+  color: #00A582;
+  font-size: 24px;
+  position: absolute;
+  right: 50px;
+  top: 80px;
+}
+
+.new {
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+
+#newbtn {
+  position: relative;
+  top: 100px;
+  left: 400px;
+}
+
+.links {
+  position: relative;
+  top: 60px;
+  left: 30px;
+  font-size: 24px;
+}
+
+img {
+  position: relative;
+  left: 400px;
+  height: 150px;
+  width: 270px;
+  top: -50px;
+}
+
+body {
+  background-color: #B5F2F1;
