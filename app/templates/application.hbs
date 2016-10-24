@@ -1,0 +1,14 @@
+<div class="container">
+  <header class="jumbotron">
+    <h1> Welcome to Super Rentals </h1>
+
+    <p>We hope you find exactly what you're looking for in a place to stay.</p>
+  </header>
+  {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'about'}}<u><strong>About</strong></u>{{/link-to}}
+    {{#link-to 'contact'}}<u>Click here to contact us.</u>{{/link-to}}
+    {{#link-to 'index'}}<strong>Index</strong>{{/link-to}}
+  </footer>
+</div>
